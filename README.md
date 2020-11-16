@@ -1,2 +1,2 @@
 # gpu_cap
-Limit GPU power usage by watt
+Limit Nvidia GPU power usage by watt for Ubuntu

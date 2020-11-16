@@ -1,0 +1,12 @@
+[Unit]
+Description=Change GPU Wattage cap to lower 
+After=lightdm.service
+
+[Service]
+ExecStart=/var/my-tool/bin/gpu_cap.sh
+Type=oneshot
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
+
